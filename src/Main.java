@@ -12,10 +12,15 @@ public class Main {
         Libro libro5=new Libro("Las aventuras de Tom Bombaldi","J.J.K Tolkien","Minotaruro",160);
 
         libro1.imprimir();
+        System.out.println(libro1.imprimircubierta());
         libro2.imprimir();
+        System.out.println(libro2.imprimircubierta());
         libro3.imprimir();
+        System.out.println(libro3.imprimircubierta());
         libro4.imprimir();
+        System.out.println(libro4.imprimircubierta());
         libro5.imprimir();
+        System.out.println(libro5.imprimircubierta());
 
     }
 }

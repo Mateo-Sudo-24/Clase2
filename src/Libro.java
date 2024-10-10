@@ -21,5 +21,10 @@ public class Libro {
         System.out.println("El autor es: "+this.autor);
         System.out.println("La editorial es: "+this.editorial);
         System.out.println("Tiene un numero de paginas: "+this.paginas);
+        System.out.println("-------------");
+    }
+
+    public int imprimircubierta() {
+        return this.paginas+5;
     }
 }
