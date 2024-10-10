@@ -33,15 +33,15 @@ public class Videojuegos {
         return nombre_videojuego;
     }
 
-    public String getGenero_videojuego() {
-        return genero_videojuego;
+    public void setNombre_videojuego(String nombre_videojuego) {
+        this.nombre_videojuego = nombre_videojuego;
     }
 
-    public int getAnio_creacion() {
-        return anio_creacion;
+    public void setEmpresa_creadora_videojuego(String empresa_creadora_videojuego) {
+        this.empresa_creadora_videojuego = empresa_creadora_videojuego;
     }
 
-    public int getVentas_videojuego() {
-        return ventas_videojuego;
+    public void setGenero_videojuego(String genero_videojuego) {
+        this.genero_videojuego = genero_videojuego;
     }
 }

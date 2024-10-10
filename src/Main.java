@@ -56,6 +56,20 @@ public class Main {
         System.out.println(vid4.subgenero_videojuego());
         vid5.imprimir_videojuego();
         System.out.println(vid5.subgenero_videojuego());
+
+        System.out.println(cancion1.getNombre_cancion());
+        System.out.println(cancion1.getGenero());
+        cancion1.setNombre_cancion("Battery");
+        System.out.println(cancion1.getNombre_cancion());
+        System.out.println(cancion2.getNombre_cancion());
+        System.out.println(cancion2.getGenero());
+
+        Cancion cancion6=new Cancion();
+        cancion6.setNombre_cancion("Vanishing");
+        System.out.println(cancion6.getNombre_cancion());
+
+
+
     }
 
 }

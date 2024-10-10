@@ -13,6 +13,10 @@ public class Cancion {
         this.calificacion = ventas;
     }
 
+    public Cancion() {
+
+    }
+
     public void imprimir_artista() {
         System.out.println("Nombre de la cancion: " + nombre_cancion);
         System.out.println("Genero: " + genero);
@@ -33,15 +37,15 @@ public class Cancion {
         return genero;
     }
 
-    public int getNumero_de_canciones() {
-        return numero_de_canciones;
-    }
-
     public int getAnio() {
         return anio;
     }
 
-    public int getCalificacion() {
-        return calificacion;
+    public void setNombre_cancion(String nombre_cancion) {
+        this.nombre_cancion = nombre_cancion;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }
