@@ -14,15 +14,34 @@ public class Videojuegos {
     }
 
     public void imprimir_videojuego() {
-        System.out.println(nombre_videojuego);
-        System.out.println(empresa_creadora_videojuego);
-        System.out.println(genero_videojuego);
-        System.out.println(anio_creacion);
-        System.out.println(ventas_videojuego);
+        System.out.println("el nombre del videojuegos es: "+nombre_videojuego);
+        System.out.println("La empresa es: "+empresa_creadora_videojuego);
+        System.out.println("El genero es: "+genero_videojuego);
+        System.out.println("El año es :"+anio_creacion);
+        System.out.println("Su numero de ventas:"+ventas_videojuego);
     }
 
     public String subgenero_videojuego() {
         return "Género: Acción, " + genero_videojuego;
     }
 
+    public String getEmpresa_creadora_videojuego() {
+        return empresa_creadora_videojuego;
+    }
+
+    public String getNombre_videojuego() {
+        return nombre_videojuego;
+    }
+
+    public String getGenero_videojuego() {
+        return genero_videojuego;
+    }
+
+    public int getAnio_creacion() {
+        return anio_creacion;
+    }
+
+    public int getVentas_videojuego() {
+        return ventas_videojuego;
+    }
 }

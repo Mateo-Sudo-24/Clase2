@@ -22,11 +22,11 @@ public class Main {
         libro5.imprimir();
         System.out.println(libro5.imprimircubierta());
 
-        Cancion cancion1 = new Cancion("Metallica", "Trash metal", 1987, 7, 1000000);
-        Cancion cancion2 = new Cancion("Linkin Park", "Nu Metal", 2024, 8, 10000000);
-        Cancion cancion3 = new Cancion("Cancerbero", "Rap", 2005, 8, 500000);
-        Cancion cancion4 = new Cancion("Slipknot", "Nu Metal", 2001, 9, 900000);
-        Cancion cancion5 = new Cancion("Limp Bizquit", "Nu Metal", 1999, 6, 800000);
+        Cancion cancion1 = new Cancion("Master of puppets", "Trash metal", 1987, 7, 1000000);
+        Cancion cancion2 = new Cancion("The emptness machine", "Nu Metal", 2024, 8, 10000000);
+        Cancion cancion3 = new Cancion("Es epico", "Rap", 2005, 8, 500000);
+        Cancion cancion4 = new Cancion("616", "Nu Metal", 2001, 9, 900000);
+        Cancion cancion5 = new Cancion("My generation", "Nu Metal", 1999, 6, 800000);
 
         cancion1.imprimir_artista();
         System.out.println(cancion1.canciones_escondidas());
