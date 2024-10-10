@@ -37,10 +37,6 @@ public class Cancion {
         return genero;
     }
 
-    public int getAnio() {
-        return anio;
-    }
-
     public void setNombre_cancion(String nombre_cancion) {
         this.nombre_cancion = nombre_cancion;
     }

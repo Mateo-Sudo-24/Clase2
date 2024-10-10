@@ -16,6 +16,9 @@ public class Libro {
         this.paginas = paginas;
     }
 
+    public Libro() {
+    }
+
     public void imprimir() {
         System.out.println("El titulo es: "+this.titulo);
         System.out.println("El autor es: "+this.autor);
@@ -26,5 +29,21 @@ public class Libro {
 
     public int imprimircubierta() {
         return this.paginas+5;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
     }
 }

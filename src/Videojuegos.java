@@ -13,12 +13,15 @@ public class Videojuegos {
         this.ventas_videojuego = ventas_videojuego;
     }
 
+    public Videojuegos() {
+    }
+
     public void imprimir_videojuego() {
-        System.out.println("el nombre del videojuegos es: "+nombre_videojuego);
-        System.out.println("La empresa es: "+empresa_creadora_videojuego);
-        System.out.println("El genero es: "+genero_videojuego);
-        System.out.println("El año es :"+anio_creacion);
-        System.out.println("Su numero de ventas:"+ventas_videojuego);
+        System.out.println("el nombre del videojuegos es: " + nombre_videojuego);
+        System.out.println("La empresa es: " + empresa_creadora_videojuego);
+        System.out.println("El genero es: " + genero_videojuego);
+        System.out.println("El año es :" + anio_creacion);
+        System.out.println("Su numero de ventas:" + ventas_videojuego);
     }
 
     public String subgenero_videojuego() {
@@ -41,7 +44,4 @@ public class Videojuegos {
         this.empresa_creadora_videojuego = empresa_creadora_videojuego;
     }
 
-    public void setGenero_videojuego(String genero_videojuego) {
-        this.genero_videojuego = genero_videojuego;
-    }
 }
