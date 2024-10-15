@@ -4,7 +4,7 @@ public class Main {
         //para declarar el objeto
         //para instanciar una clase
         Libro libro1 = new Libro("El Resplandor", "Stephen King", "De Bolsillo", 600);
-        Libro libro2 = new Libro("El mago de oz", "L.Frank Baum", "Alianza Editorial", 256);
+        Libro libro2 = new Libro("El mago de Oz", "L.Frank Baum", "Alianza Editorial", 256);
 
         libro1.imprimir();
         System.out.println(libro1.imprimircubierta());
