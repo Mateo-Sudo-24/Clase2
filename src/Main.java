@@ -16,7 +16,7 @@ public class Main {
         System.out.println(libro2.getAutor());
 
         Cancion cancion1 = new Cancion("Master of puppets", "Trash metal", 1987, 7, 1000000);
-        Cancion cancion2 = new Cancion("The emptness machine", "Nu Metal", 2024, 8, 10000000);
+        Cancion cancion2 = new Cancion("The emptiness machine", "Nu Metal", 2024, 8, 10000000);
 
         cancion1.imprimir_artista();
         System.out.println(cancion1.canciones_escondidas());
