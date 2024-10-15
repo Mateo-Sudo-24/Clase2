@@ -60,7 +60,7 @@ public class Main {
         System.out.println("El nombre de la serie es: "+ser2.getNombreSerie());
         System.out.println("El año de la serie es: "+ser2.getAnio());
 
-        Auto au1=new Auto("E 320","Mercedes",2002,true);
+        Auto au1 = new Auto("E-320", "Mercedes", 2002, true);
         Auto au2=new Auto("M4","BMW",2020,false);
 
         System.out.println("El modelo del auto es: "+au1.getModelo());
