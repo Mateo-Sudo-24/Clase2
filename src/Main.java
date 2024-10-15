@@ -96,7 +96,7 @@ public class Main {
         persona3.setNombre("Arnold");
         System.out.println(persona3.getNombre());
         persona3.setEstudia(true);
-        System.out.println("Usted paso la materia "+persona3.isEstudia());
+        System.out.println("Usted paso la materia? " + persona3.isEstudia());
 
         Serie ser3=new Serie();
         ser3.setNombreSerie("Game of Thrones");
