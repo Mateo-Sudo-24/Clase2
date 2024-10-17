@@ -1,3 +1,5 @@
+
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!"); // display output
@@ -68,9 +70,45 @@ public class Main {
         System.out.println("El modelo del auto es: "+au2.getModelo());
         System.out.println("El auto esta en buenas condiciones"+au2.isEstado());
 
+        Transporte t1 = new Transporte("Bus", "Condorvall", 0.52, 2, false);
+        Transporte t2 = new Transporte("Metro de quito", "Metro", 0.45, 0, true);
 
+        System.out.println("El trasnporte es de tipo" + t1.getTipo_de_trasnporte());
+        System.out.println("El trasnporte es articulado" + t1.isArticulado());
+        System.out.println("El trasnporte es de tipo" + t2.getTipo_de_trasnporte());
+        System.out.println("El trasnporte es de tipo" + t2.isArticulado());
 
+        Materia m1 = new Materia("Programacion", "Programacion orientada a objetos", 522, "laboratorio", true);
+        Materia m2 = new Materia("Fisica", "Electromagnetismo", 155, "Magistral", false);
 
+        System.out.println("La materia es; " + m1.getNombreMateria());
+        System.out.println("La materia es en un laboratorio " + m2.isLaboratorio());
+        System.out.println("La materia es " + m2.getNombreMateria());
+        System.out.println("La materia es wn un laboratorio" + m2.isLaboratorio());
+
+        Zapato z1 = new Zapato("Zapatilla", "Adidas", "Botin", "rojas", 41);
+        Zapato z2 = new Zapato("Moacasin", "Venus", "Formal", "Negro", 39);
+
+        System.out.println("El modelo del zapato es; " + z1.getModelo());
+        System.out.println("La marca del zapato es; " + z2.getMarca());
+        System.out.println("El modelo del zapato es; " + z2.getMarca());
+        System.out.println("La marca del zapato es; " + z2.getMarca());
+
+        InstrumentoMusical im1 = new InstrumentoMusical("Piano", true, false, true, false);
+        InstrumentoMusical im2 = new InstrumentoMusical("Guitarra", true, false, true, true);
+
+        System.out.println("El instrumento es; " + im1.getNombre());
+        System.out.println("El insttrumento es acustico; " + im1.isAcustico());
+        System.out.println("El instrumento es; " + im2.getNombre());
+        System.out.println("El instrumento es acustico; " + im2.isAcustico());
+
+        Pelicula pl1 = new Pelicula("Avengers", "Accion", "Rusos,Bros", 2019, 2.30);
+        Pelicula pl2 = new Pelicula("Forest Gump", "Drama", "Robert Zemeskis", 1994, 2.22);
+
+        System.out.println("El nombre de la pelicula es; " + pl1.getTitulo());
+        System.out.println("El genero de la pelicula es;" + pl1.getGenero());
+        System.out.println("El nombre de la pelicula es;" + pl2.getTitulo());
+        System.out.println("El genero de la pelicula es;" + pl2.getGenero());
 
 
         System.out.println("---Agreagados---");
@@ -109,6 +147,42 @@ public class Main {
         System.out.println(au3.getModelo());
         au3.setEstado(true);
         System.out.println("El auto esta en buen estado"+au3.isEstado());
+
+        Transporte t3 = new Transporte();
+        t3.setTipo_de_trasnporte("Articulado");
+        System.out.println(t3.getTipo_de_trasnporte());
+        t3.setArticulado(true);
+        System.out.println("El transporte es articulado " + t3.isArticulado());
+
+        Materia m3 = new Materia();
+        m3.setNombreMateria("Quimica");
+        System.out.println("La materia es; " + m3.getNombreMateria());
+        m3.setLaboratorio(true);
+        System.out.println("La materia es en laboratorio: " + m3.isLaboratorio());
+
+        Zapato z3 = new Zapato();
+        z3.setModelo("Tacon");
+        System.out.println(z3.getModelo());
+        z3.setTalla(38);
+        System.out.println("La talla del tacon es: " + z3.getTalla());
+
+        InstrumentoMusical im3 = new InstrumentoMusical();
+        im3.setNombre("Saxofon");
+        System.out.println(im3.getNombre());
+        im3.setAcustico(false);
+        System.out.println("El instrumento es acustico " + im3.isAcustico());
+
+        Pelicula pl3 = new Pelicula();
+        pl3.setTitulo("Supercool");
+        System.out.println("El nombre de la pelicula es; " + pl3.getTitulo());
+        pl3.setGenero("Comedia");
+        System.out.println("El genero de la pelicula es;" + pl3.getGenero());
+
+
+
+
+
+
 
 
 
